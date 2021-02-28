@@ -1,3 +1,34 @@
-body {
-  background-color: #red;
+body, html {
+    height: 100%;
+}
+
+.hero-image {
+  background-image: url("galaxy.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 850px 450px;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+footer {
+  background-color: lightgrey;
+  background-size: 850px 324px;
+}
+
+.flex-container {
+  display: flex;
+  height: 324px;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: stretch;
 }
