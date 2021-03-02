@@ -4,31 +4,42 @@ body {
 }
 
 main {
+  display:flex;
   background-image: url("galaxy.jpg");
   background-size: 850px 450px;
-  margin: 0 auto;
   height: 450px;
   color: white;
+  align-items: center;
+  justify-content: center;
 }
-h1 {
+.Nasa {
   font: white;
   text-align: center;
+  font-size: 100px;
+  background-color:rgba(187, 177, 165, 0.57);
+  font-family: 'Lato', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 section {
   display: flex;
   height: 324px;
+  width: 850px;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   align-content: center;
   background-color: rgb(230,230,230);
   font: black;
-
+  
 }
 article {
   display: flex;
   width: 270px;
   height: 324px;
+  align-items: center;
+  flex-direction: column;
   background-color: rgb(230,230,230);
+  font-family: sans-serif;
+
 }
 
 ul.no-bullets {
